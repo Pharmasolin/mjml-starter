@@ -1,0 +1,37 @@
+<mjml owa="desktop">
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" />
+    <mj-attributes>
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+      <mj-text padding="0" />
+      <mj-image padding="0" />
+      <mj-divider padding="0" />
+      <mj-button padding="0" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+    <mj-style>
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+
+      @media (max-device-width: 599px) {
+  	//css rules here
+      }
+
+      @media screen and (max-width: 599px) {
+	//css rules here
+      }
+    </mj-style>
+    <mj-title>Email title text</mj-title>
+    <mj-preview>Email preview text (remove if not required)</mj-preview>
+  </mj-head>
+  <mj-body background-color="#FFFFFF" width="600px">
+	<!-- content -->
+  </mj-body>
+</mjml>
