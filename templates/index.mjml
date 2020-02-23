@@ -21,11 +21,11 @@
       }
 
       @media (max-device-width: 599px) {
-  	//css rules here
+  	/* css rules here */
       }
 
       @media screen and (max-width: 599px) {
-	//css rules here
+	/* css rules here */
       }
     </mj-style>
     <mj-title>Email title text</mj-title>
