@@ -14,6 +14,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mjml": "^4.5.1"
+    "mjml": "^4.6.2"
   }
 }
