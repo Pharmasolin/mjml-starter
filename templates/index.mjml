@@ -1,16 +1,17 @@
-<mjml owa="desktop">
+<mjml
+lang=""
+owa="desktop">
   <mj-head>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" />
     <mj-attributes>
-      <mj-section padding="0" />
-      <mj-column padding="0" />
-      <mj-text padding="0" />
-      <mj-image padding="0" />
-      <mj-divider padding="0" />
-      <mj-button padding="0" />
+      <mj-all padding="0" />
+      <mj-all font-family="'Roboto' ,Helvetica, Arial, sans-serif" />
     </mj-attributes>
     <mj-breakpoint width="600px" />
     <mj-style>
+      /* disable image download in gmail https://www.formget.com/remove-download-icon-over-the-images-in-gmail/ */
+      .a5q {display: none !important;}
+
       a[x-apple-data-detectors] {
         color: inherit !important;
         text-decoration: none !important;
@@ -21,14 +22,14 @@
       }
 
       @media (max-device-width: 599px) {
-  	/* css rules here */
+  	     /* css rules here */
       }
 
       @media screen and (max-width: 599px) {
-	/* css rules here */
+	       /* css rules here */
       }
     </mj-style>
-    <mj-title>Email title text</mj-title>
+    <mj-title>Email Subject Line</mj-title>
     <mj-preview>Email preview text (remove if not required)</mj-preview>
   </mj-head>
   <mj-body background-color="#FFFFFF" width="600px">
