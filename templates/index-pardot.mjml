@@ -1,0 +1,86 @@
+<mjml
+lang=""
+owa="desktop">
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" />
+    <mj-attributes>
+      <mj-all padding="0" />
+      <mj-all font-family="'Roboto' ,Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-breakpoint width="600px" />
+    <!-- styles for 'preview text' in pardot editor -->
+    <mj-raw>
+      <!--[if !mso]><!-->
+      <style type="text/css">
+      #emailContents .preview {
+        display: block !important;
+        font-family: Helvetica, sans-serif;
+        font-size: 16px;
+        padding: 10px;
+        margin: 10px;
+        background: #add7d4;
+      }
+      #emailContents .preview::before {
+        content: 'Preview Text';
+        font-weight: bold;
+        background-color: #00a699;
+        font-family: Helvetica, sans-serif;
+        color: #fff;
+        border-radius: 3px;
+        font-size: 14px;
+        display: inline-block;
+        padding: 0 6px;
+        margin-right: 6px;
+      }
+      </style>
+      <!--<![endif]-->
+    </mj-raw>
+    <mj-style>
+      /* disable image download in gmail https://www.formget.com/remove-download-icon-over-the-images-in-gmail/ */
+      .a5q {display: none !important;}
+
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+
+      @media (max-device-width: 599px) {
+  	     /* css rules here */
+      }
+
+      @media screen and (max-width: 599px) {
+	       /* css rules here */
+      }
+    </mj-style>
+    <mj-title>Email Subject Line</mj-title>
+  </mj-head>
+  <mj-body background-color="#FFFFFF" width="600px">
+    <mj-raw>
+      <!-- preview text starts -->
+        <div pardot-region="preview" class="preview" style="display:none">
+          Click here to enter your preview text.
+        </div>
+        <div style="display:none">&#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847;</div>
+      <!-- preview text ends -->
+    </mj-raw>
+    <mj-raw>
+      <!-- section one starts -->
+      <div pardot-repeatable>
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <!-- content -->
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      </div>
+      <!-- section one ends -->
+      <div pardot-repeatable>
+      <!-- section two starts -->
+    </mj-raw>
+  </mj-body>
+</mjml>
